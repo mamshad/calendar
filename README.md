@@ -1,14 +1,14 @@
 # calendar
 In this application I have used the following technologies
-  1. Mysql
-  2. Servlet
-  3. Jquery
-  4. JavaScript
-  5. Java
+  1. Mysql - Persistant layer
+  2. Servlet - For request, response
+  3. Jquery - For asynchronous communication 
+  4. JavaScript - Manipulate UI
+  5. Java - Core language
   6. JDBC - To communicate with persistant layer
-  7. HTML, CSS
-  8. Tomcat 7
-  9. JDK 8
+  7. HTML, CSS - To design UI
+  8. Tomcat 7 - To Host the application
+  9. JDK 8 - For Java
   
 * This event calendar will generate events only for all months of current year. 
 * To add an event please click on the date and an input field will appear along with two button. "Add" and "Close"
@@ -27,5 +27,8 @@ In this application I have used the following technologies
   `event` varchar(500) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 * Database Name: "my_calender"
-* ConnectionURL = "jdbc:mysql://localhost:3306/my_calender"; It will found on - com.calender.Database.DBConnectionManager this package path
+* ConnectionURL = "jdbc:mysql://localhost:3306/my_calender"; It will found on - com.calender.Database.DBConnectionManager this package       path
+
+
+
 
