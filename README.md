@@ -9,6 +9,7 @@ In this application I have used the following technologies
   7. HTML, CSS - To design UI
   8. Tomcat 7 - To Host the application
   9. JDK 8 - For Java
+  10.IDE - Eclipse
   
 * This event calendar will generate events only for all months of current year. 
 * To add an event please click on the date and an input field will appear along with two button. "Add" and "Close"
